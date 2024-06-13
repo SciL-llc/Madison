@@ -15,6 +15,7 @@ let photoSwiper = new Swiper(".swiper.is-photos", {
     allowSlideNext: false,
   });
   
+  
   photoSwiper.controller.control = contentSwiper;
   contentSwiper.controller.control = photoSwiper;
   

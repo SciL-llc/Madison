@@ -3,7 +3,7 @@ let photoSwiper = new Swiper(".swiper.is-photos", {
     grabCursor: true,
     loop: true,
     keyboard: true,
-    allowSlidePrev: false,
+    allowSlideNext: false,
   });
   let contentSwiper = new Swiper(".swiper.is-content", {
     effect: "fade",
@@ -12,7 +12,7 @@ let photoSwiper = new Swiper(".swiper.is-photos", {
     },
     grabCursor: true,
     loop: true,
-    allowSlidePrev: false,
+    allowSlideNext: false,
   });
   
   photoSwiper.controller.control = contentSwiper;
